@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Fredoka";
 }
 img{
   height: 100px;
@@ -27,8 +27,6 @@ img{
 .container{
   width: 80%;
   margin: 0 auto;
-  background-color: grey;
-  border: 1px solid black;
   text-align: center;
   padding:2rem;
 
@@ -36,7 +34,23 @@ img{
 h1,p{
   margin-bottom: 3rem;
 }
-
+h1{
+  color: rgb(229, 49, 112);
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.mail{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(81, 186, 225);
+  
+}
 .row.team{
   margin: 0 -2rem;
   
@@ -54,9 +68,7 @@ img{
   float: left;
   height: 100px;
 }
-.mail{
-  color: rgb(71, 71, 255);
-}
+
 .user{
   padding-left: 110px;
   line-height:calc(100px / 3);
