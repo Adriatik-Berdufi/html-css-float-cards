@@ -63,6 +63,7 @@ h3{
   color: white;
   background-color: black;
   width: calc(100% / 3 - 4rem);
+  min-width: 300px
 }
 img{
   float: left;
